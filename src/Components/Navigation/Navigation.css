@@ -1,0 +1,11 @@
+.all-pics{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content:center;
+  justify-content:space-evenly;
+}
+
+img{
+  height:250px;
+  width:250px;
+}
