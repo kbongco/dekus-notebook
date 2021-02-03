@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Welcome.css";
 
 export default function Welcome() {
@@ -15,7 +16,11 @@ export default function Welcome() {
       <div className='description'>
         <p>A fun project involving MHA and its API. Take a look at some character stats.</p>
         <p>Note there are some light spoilers here. If you spoil yourself, you are responsible so don't blame me! :)</p>
+        <Link to='/plus'>
+          <button className='navigate'>Enter</button>
+        </Link>
       </div>
+
     </>
   );
 }

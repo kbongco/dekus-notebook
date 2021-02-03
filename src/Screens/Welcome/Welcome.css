@@ -18,3 +18,10 @@
   background-color:red;
   align-items:center;
 }
+.navigate{
+  border-radius:16px;
+  width:25%;
+  background-color:#3066BE;
+  color:white;
+  font-size:20px;
+}
